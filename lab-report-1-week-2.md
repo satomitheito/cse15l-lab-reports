@@ -1,3 +1,5 @@
+# Link To Report
+
 [Lab Report 1 Google Doc](https://docs.google.com/document/d/1FjhcWWyNLU-B-I-_yEofumn0BLGZxYbWXScFVp-Wg_w/edit?usp=sharing)
 
 ---
