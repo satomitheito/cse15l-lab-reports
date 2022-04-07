@@ -1,4 +1,4 @@
-`Satomi Ito A16157881`
+`Satomi Ito - A16157881`
 # *Index Page*
 
 [Lab Report 1 Github Page](lab-report-1-week-2.html)
