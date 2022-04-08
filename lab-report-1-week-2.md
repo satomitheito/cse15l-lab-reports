@@ -3,7 +3,7 @@
 ## A16157881
 
 ### Part 1: Visual Studio Code
-Make sure you have Visual Studio Code downloaded. If not, download from (here)[https://code.visualstudio.com/]. Open the application.
+Make sure you have Visual Studio Code downloaded. If not, download from [here](https://code.visualstudio.com/). Open the application.
 
 <img width="1143" alt="Screen Shot 2022-03-31 at 8 21 27 AM" src="https://user-images.githubusercontent.com/58501820/162517801-454e333c-8e55-4428-9d12-68ab0ae9084d.png">
 ---
