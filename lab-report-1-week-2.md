@@ -138,7 +138,7 @@ You will need to input the password one last time.
 
 > $ mkdir .ssh
 
-> $ <logout>
+> logout
 
 > back on client
 
