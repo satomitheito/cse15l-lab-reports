@@ -146,7 +146,7 @@ You will need to input the password one last time.
 
 > You use your username and the path you saw in the command above
 
-> Once you do this, you should be able to ssh or scp from this client to the server without entering your password.
+Once you do this, you should be able to ssh or scp from this client to the server without entering your password.
 
 <img width="789" alt="Screen Shot 2022-03-31 at 9 35 35 AM" src="https://user-images.githubusercontent.com/58501820/162547397-358ef0ad-13aa-47f5-9156-b86b2be0c438.png">
 
