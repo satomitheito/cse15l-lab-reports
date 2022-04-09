@@ -143,8 +143,7 @@ You will need to input the password one last time.
 > back on client
 
 > $ scp /Users/<user-name>/.ssh/id_rsa.pub cs15lsp22zz@ieng6.ucsd.edu:~/.ssh/authorized_keys
-
-> You use your username and the path you saw in the command above
+You use your username and the path you saw in the command above
 
 Once you do this, you should be able to ssh or scp from this client to the server without entering your password.
 
