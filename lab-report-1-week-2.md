@@ -10,6 +10,11 @@ Make sure you have Visual Studio Code downloaded. If not, download from [here](h
 ---
 
 ### Part 2: Remotely Connecting 
+
+If you're using a Windows, 
+
+[Install OpenSSH](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse)
+
 To get your course specific account, click on this link:
 
 https://sdacs.ucsd.edu/~icc/index.php
@@ -17,6 +22,10 @@ https://sdacs.ucsd.edu/~icc/index.php
 You should be able to get your username, which would look something like this:
 
 cs15lsp22zz
+
+We are connecting to a remote computer and this is for reference. 
+
+[Connect to remote host step](https://code.visualstudio.com/docs/remote/ssh#_connect-to-a-remote-host)
 
 Then, in Visual Studio Code, open the terminal (Ctrl + `, or Terminal → New Terminal menu) Input command:
 
@@ -39,6 +48,10 @@ If this is your first time connecting, you should see this message.
 
 
 Type yes and enter. Then, it would ask for your password. Input the password, you used when obtaining your course specific account. Once you successfully typed your password, you would see this. if ran successful, your terminal will be connected to the computer in the CSE basement. Your computer will be the client and the computer in the basement is the server.
+
+
+[Here is a more in-depth explanation of the connection output](https://superuser.com/questions/421074/ssh-the-authenticity-of-host-host-cant-be-established/421084#421084)
+
 
 <img width="698" alt="Screen Shot 2022-03-31 at 8 36 18 AM" src="https://user-images.githubusercontent.com/58501820/162518045-d02bf29f-dd16-4af5-9a42-72cd09d23ed4.png">
  
@@ -149,6 +162,10 @@ You use your username and the path you saw in the command above
 Once you do this, you should be able to ssh or scp from this client to the server without entering your password.
 
 <img width="789" alt="Screen Shot 2022-03-31 at 9 35 35 AM" src="https://user-images.githubusercontent.com/58501820/162547397-358ef0ad-13aa-47f5-9156-b86b2be0c438.png">
+ 
+If on Windows, follow the extra step:
+ 
+[Here](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation)
 
 ---
 
