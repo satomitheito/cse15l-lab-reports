@@ -30,7 +30,7 @@ We are connecting to a remote computer and this is for reference.
 Then, in Visual Studio Code, open the terminal (Ctrl + `, or Terminal → New Terminal menu) Input command:
 
 
-` ssh cs15lsp22zz@ieng6.ucsd.edu `
+`ssh cs15lsp22zz@ieng6.ucsd.edu`
 
 
 This command line is an example. You would have to input your own username followed by @iend6.ucsd.edu. 
@@ -59,19 +59,19 @@ Type yes and enter. Then, it would ask for your password. Input the password, yo
 ### Part 3: Running Commands 
 These are some useful commands. 
 
-` cd ~ `
+`cd ~`
 
-` cd`
+`cd`
 
-` ls -lat `
+`ls -lat`
 
-` ls -a `
+`ls -a`
 
-` ls <directory> where <directory> is /home/linux/ieng6/cs15lsp22/cs15lsp22abc` where the abc is one of the other group members’ username
+`ls <directory> where <directory> is /home/linux/ieng6/cs15lsp22/cs15lsp22abc` where the abc is one of the other group members’ username
 
-` cp /home/linux/ieng6/cs15lsp22/public/hello.txt ~/ `
+`cp /home/linux/ieng6/cs15lsp22/public/hello.txt ~/`
 
-` cat /home/linux/ieng6/cs15lsp22/public/hello.txt`
+`cat /home/linux/ieng6/cs15lsp22/public/hello.txt`
 
 <img width="727" alt="Screen Shot 2022-03-31 at 8 48 16 AM" src="https://user-images.githubusercontent.com/58501820/162518803-d129acaa-590c-4d3e-b3ee-270738437cf6.png">
 
@@ -110,13 +110,13 @@ class WhereAmI {
  
 On the terminal, cd into the area where the file is. Then, run this command. 
 
-` scp WhereAmI.java cs15lsp22zz@ieng6.ucsd.edu:~/ `
+`scp WhereAmI.java cs15lsp22zz@ieng6.ucsd.edu:~/`
 
 Again , cs15lsp22zz should be different for everyone based on what they get on the course specific account. After inputting your password. Log into ieng6 with ssh again. Your terminal should look like this. 
 
 For refresher, this is the ssh code:
 
-` ssh cs15lsp22zz@ieng6.ucsd.edu `
+`ssh cs15lsp22zz@ieng6.ucsd.edu`
 
 If ran successfully, you should see this output. 
 
@@ -133,7 +133,7 @@ To run the file on the ieng6 computer, run javac and then java. Below should be 
 
 This step will let you run ssh and scp without inputting your password everytime. First, log out of the remote server on your terminal. Then on terminal, input this following command.
 
-` ssh-keygen `
+`ssh-keygen`
 
 If ran successfully, this would be the output. 
 
@@ -141,7 +141,7 @@ If ran successfully, this would be the output.
 
 This created two new files on your system; the private key (in a file id_rsa) and the public key (in a file id_rsa.pub), stored in the .ssh directory on your computer. Follow the following commands. 
 
-` ssh cs15lsp22zz@ieng6.ucsd.edu`
+`ssh cs15lsp22zz@ieng6.ucsd.edu`
 
 You will need to input the password one last time. 
 
@@ -149,13 +149,13 @@ You will need to input the password one last time.
 
 > now on server
 
-` mkdir .ssh `
+`mkdir .ssh`
 
 > logout
 
 > back on client
 
-` scp /Users/<user-name>/.ssh/id_rsa.pub cs15lsp22zz@ieng6.ucsd.edu:~/.ssh/authorized_keys`
+`scp /Users/<user-name>/.ssh/id_rsa.pub cs15lsp22zz@ieng6.ucsd.edu:~/.ssh/authorized_keys`
 
 You use your username and the path you saw in the command above
 
@@ -174,7 +174,7 @@ If on Windows, follow the extra step:
 This command will log in and list the home directory on the remote server:
 
 
-` ssh cs15lsp22zz@ieng6.ucsd.edu "ls"`
+`ssh cs15lsp22zz@ieng6.ucsd.edu "ls"`
  
  
  You can use semicolons to run multiple commands on the same line in most terminals.
