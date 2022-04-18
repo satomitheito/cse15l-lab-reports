@@ -67,7 +67,7 @@ These are some useful commands.
 
 ` ls -a `
 
-` ls <directory> where <directory> is /home/linux/ieng6/cs15lsp22/cs15lsp22abc, where the abc is one of the other group members’ username
+` ls <directory> where <directory> is /home/linux/ieng6/cs15lsp22/cs15lsp22abc` where the abc is one of the other group members’ username
 
 ` cp /home/linux/ieng6/cs15lsp22/public/hello.txt ~/ `
 
