@@ -184,6 +184,7 @@ This command will log in and list the home directory on the remote server:
  
  You can use the up-arrow on your keyboard to recall the last command that was run
  
+ 
  <img width="715" alt="Screen Shot 2022-04-20 at 4 10 47 PM" src="https://user-images.githubusercontent.com/58501820/164339431-5aa3dddd-9b60-4194-9873-c71f986eac8d.png">
 
  
