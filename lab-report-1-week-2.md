@@ -17,7 +17,7 @@ If you're using a Windows,
 
 To get your course specific account, click on this link:
 
-https://sdacs.ucsd.edu/~icc/index.php
+[here](https://sdacs.ucsd.edu/~icc/index.php)
 
 You should be able to get your username, which would look something like this:
 
@@ -91,21 +91,21 @@ Run the command exit
 Log out of your remote server in your terminal by following the instruction given above. Then, Create a file on your computer called WhereAmI.java and put the following code into it:
 
 
-class WhereAmI {
+`class WhereAmI {`
 
-  public static void main(String[] args) {
+  `public static void main(String[] args) {`
   
-    System.out.println(System.getProperty("os.name"));
+    `System.out.println(System.getProperty("os.name"));`
     
-    System.out.println(System.getProperty("user.name"));
+    `System.out.println(System.getProperty("user.name"));`
     
-    System.out.println(System.getProperty("user.home"));
+    `System.out.println(System.getProperty("user.home"));`
     
-    System.out.println(System.getProperty("user.dir"));
+    `System.out.println(System.getProperty("user.dir"));`
     
-  }
+  `}`
   
-}
+`}`
  
  
 On the terminal, cd into the area where the file is. Then, run this command. 
@@ -183,5 +183,9 @@ This command will log in and list the home directory on the remote server:
  
  
  You can use the up-arrow on your keyboard to recall the last command that was run
+ 
+ <img width="715" alt="Screen Shot 2022-04-20 at 4 10 47 PM" src="https://user-images.githubusercontent.com/58501820/164339431-5aa3dddd-9b60-4194-9873-c71f986eac8d.png">
+
+ 
  
  
