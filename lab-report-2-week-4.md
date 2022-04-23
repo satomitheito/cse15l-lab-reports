@@ -2,7 +2,10 @@
 ## Satomi Ito
 ## A16157881
 
+This is the link to the original markdown parse [here](https://github.com/nidhidhamnani/markdown-parser/blob/main/MarkdownParse.java)
 
+
+This is the link to the test file [here](https://github.com/nidhidhamnani/markdown-parser/blob/main/test-file.md)
 
 ## Debug 1
 
