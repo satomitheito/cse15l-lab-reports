@@ -61,3 +61,9 @@ There is aa StringIndexOutOfBoundsException thrown due to the code unable to fin
 ---
 
 ## Debug 3
+
+When conducting 
+
+`javac MarkdownParse.java`
+
+
