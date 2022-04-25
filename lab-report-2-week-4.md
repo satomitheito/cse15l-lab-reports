@@ -81,7 +81,6 @@ The testfile contains an invalid link so that's why the array returned was an em
 
 <img width="705" alt="Screen Shot 2022-04-24 at 9 32 39 PM" src="https://user-images.githubusercontent.com/58501820/165021637-4f80c57b-d003-4480-8f5f-157b4ffc3e51.png">
 
-
 <img width="507" alt="Screen Shot 2022-04-24 at 9 32 24 PM" src="https://user-images.githubusercontent.com/58501820/165021642-a8b1f294-2fef-4f7a-ace9-7408d0384412.png">
 
 
