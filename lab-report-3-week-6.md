@@ -22,12 +22,18 @@
 
 <img width="430" alt="Screen Shot 2022-05-08 at 1 06 28 PM" src="https://user-images.githubusercontent.com/58501820/167316163-22727390-58af-4d6b-80cf-acfda5255805.png">
 
-<img width="547" alt="Screen Shot 2022-05-08 at 2 17 29 PM" src="https://user-images.githubusercontent.com/58501820/167316171-a30aec02-ab3c-4788-9436-e67cec2abfe4.png">
+<img width="478" alt="Screen Shot 2022-05-08 at 2 38 31 PM" src="https://user-images.githubusercontent.com/58501820/167316883-58de3564-2e53-478f-a872-2622b84de498.png">
 
-<img width="497" alt="Screen Shot 2022-05-08 at 2 17 15 PM" src="https://user-images.githubusercontent.com/58501820/167316180-af5db655-4ecd-4f05-b678-47a6111731c8.png">
+Midway I realised my token expired so I had to regenerate a new token and authenticate it. 
 
+<img width="528" alt="Screen Shot 2022-05-08 at 2 39 06 PM" src="https://user-images.githubusercontent.com/58501820/167316887-ca525983-d4c3-49e9-86a5-6612a2fde4ad.png">
 
 [here](https://github.com/satomitheito/markdown-parser)
 
+---
+
 ### Copy whole directories with `scp -r`
+
+
+`scp -r . cs15lsp22amn@ieng6.ucsd.edu:~/markdown-parse; ssh ieng6 "cd markdown-parse; /software/CSE/oracle-java-17/jdk-17.0.1/bin/javac -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar MarkdownParseTest.java; /software/CSE/oracle-java-17/jdk-17.0.1/bin/java -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar org.junit.runner.JUnitCore MarkdownParseTest"`
 
