@@ -34,6 +34,18 @@ Midway I realised my token expired so I had to regenerate a new token and authen
 
 ### Copy whole directories with `scp -r`
 
+<img width="683" alt="Screen Shot 2022-05-08 at 2 42 05 PM" src="https://user-images.githubusercontent.com/58501820/167326282-42600bfa-8db2-468d-9552-679eb9271967.png">
+
+<img width="698" alt="Screen Shot 2022-05-08 at 2 43 30 PM" src="https://user-images.githubusercontent.com/58501820/167326305-39546ba2-d179-4936-aebf-95832359ebae.png">
+
+
 
 `scp -r . cs15lsp22amn@ieng6.ucsd.edu:~/markdown-parse; ssh ieng6 "cd markdown-parse; /software/CSE/oracle-java-17/jdk-17.0.1/bin/javac -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar MarkdownParseTest.java; /software/CSE/oracle-java-17/jdk-17.0.1/bin/java -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar org.junit.runner.JUnitCore MarkdownParseTest"`
+
+<img width="690" alt="Screen Shot 2022-05-08 at 6 35 36 PM" src="https://user-images.githubusercontent.com/58501820/167326226-bda3885a-b683-4a10-a93c-fdd308c47255.png">
+
+
+<img width="696" alt="Screen Shot 2022-05-08 at 6 35 44 PM" src="https://user-images.githubusercontent.com/58501820/167326232-a6dd86b7-6d15-4086-8168-47fae29cbacb.png">
+
+
 
