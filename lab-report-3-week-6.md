@@ -4,7 +4,10 @@
 ### Streamlining ssh Configuration
 
 I used text edit to edit this config file. 
+
+
 <img width="475" alt="Screen Shot 2022-05-08 at 1 11 18 PM" src="https://user-images.githubusercontent.com/58501820/167314164-f0f02377-4004-45a7-bc20-0a71fed04ab7.png">
+
 
 <img width="564" alt="Screen Shot 2022-04-28 at 9 45 15 AM" src="https://user-images.githubusercontent.com/58501820/167313323-1ebf134b-2dca-4236-a1ac-09592c8c7168.png">
 
