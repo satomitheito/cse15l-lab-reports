@@ -50,7 +50,7 @@ Midway I realised my token expired so I had to regenerate a new token and authen
 <img width="528" alt="Screen Shot 2022-05-08 at 2 39 06 PM" src="https://user-images.githubusercontent.com/58501820/167316887-ca525983-d4c3-49e9-86a5-6612a2fde4ad.png">
 
 Result:
-
+In the link below, you can see t.java being pushed into this repo. 
 [here](https://github.com/satomitheito/markdown-parser)
 
 ---
@@ -74,6 +74,7 @@ Combined scp, ;, and ssh to copy the whole directory and run the tests in one li
 
 `scp -r . cs15lsp22amn@ieng6.ucsd.edu:~/markdown-parse; ssh ieng6 "cd markdown-parse; /software/CSE/oracle-java-17/jdk-17.0.1/bin/javac -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar MarkdownParseTest.java; /software/CSE/oracle-java-17/jdk-17.0.1/bin/java -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar org.junit.runner.JUnitCore MarkdownParseTest"`
 
+In the first line we see the combined code that is run in the first line. 
 <img width="690" alt="Screen Shot 2022-05-08 at 6 35 36 PM" src="https://user-images.githubusercontent.com/58501820/167326226-bda3885a-b683-4a10-a93c-fdd308c47255.png">
 
 
