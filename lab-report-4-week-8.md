@@ -34,6 +34,10 @@ Click [here](https://github.com/yuxinguo13/markdown-parser.git) for the one we r
 
 <img width="604" alt="Screen Shot 2022-05-22 at 5 07 17 PM" src="https://user-images.githubusercontent.com/58501820/169722184-fd039c55-51a8-4903-aae9-e141c2b8f32c.png">
 
+Do you think there is a small (<10 lines) code change that will make your program work for snippet 1 and all related cases that use inline code with backticks? If yes, describe the code change. If not, describe why it would be a more involved change.
+
+I do not think that a small code change will make my program work. I would need to ad more conditions that considers the ` as some of them are in places outside of the bracket. 
+
 ---
 
 ## Snippet 2
@@ -60,6 +64,9 @@ Click [here](https://github.com/yuxinguo13/markdown-parser.git) for the one we r
 <img width="524" alt="Screen Shot 2022-05-22 at 5 08 30 PM" src="https://user-images.githubusercontent.com/58501820/169722235-04e3fe86-2ad6-4f57-be98-12f864008f56.png">
 
 
+Do you think there is a small (<10 lines) code change that will make your program work for snippet 1 and all related cases that use inline code with backticks? If yes, describe the code change. If not, describe why it would be a more involved change.
+
+I think a small code change can make the program work. This is because unlike snippet 1, there is no ` that are outside the brackets and the only thing to consider is the (()). 
 
 ---
 
@@ -105,5 +112,9 @@ And then there's more text
 
 
 <img width="581" alt="Screen Shot 2022-05-22 at 5 09 59 PM" src="https://user-images.githubusercontent.com/58501820/169722281-5fce494b-a0ad-4e0d-b8b5-df3d7bd13784.png">
+
+Do you think there is a small (<10 lines) code change that will make your program work for snippet 1 and all related cases that use inline code with backticks? If yes, describe the code change. If not, describe why it would be a more involved change.
+
+I think a small code change will be enough to make the program work as the only thing I would need to consider is a line break. 
 
 
